@@ -1,19 +1,49 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+This unit converter was part of a milestone project for SCRIMBAS javascript track 
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Length Converter
 
-Happy Coding!
+A simple JavaScript project that converts meters to feet and feet to meters.
+It allows users to input a value and instantly see the conversion results.
+
+Features
+
+Input a number in meters or feet.
+
+Automatically shows the equivalent value in both units.
+
+Results are displayed neatly below a heading for easy reading.
+
+Clean and simple UI for practicing HTML, CSS, and JavaScript.
+
+Technologies Used
+
+HTML for structure
+
+CSS for styling
+
+JavaScript for conversion logic and DOM manipulation
+
+How It Works
+
+Enter a value in the input field.
+
+JavaScript calculates:
+
+1 meter = 3.281 feet
+
+1 foot = 0.3048 meters
+
+The results are displayed under the heading Length (Meter/Feet).
+
+Example
+
+Input: 10
+Output:
+
+10 meters = 32.81 feet | 10 feet = 3.05 meters
+
+Purpose
+
+This project is designed for beginners to practice DOM manipulation, basic math operations, and styling with CSS.
